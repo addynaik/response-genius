@@ -1,0 +1,11 @@
+{
+  "name": "response-genius",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Port 80 Labs <info@port80labs.com>",
+  "license": "ISC"
+}

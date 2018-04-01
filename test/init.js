@@ -1,7 +1,11 @@
 var assert = require('assert')
 
+var ResponseGenius = require('../index');
+
 describe('handle initialization', function () {
   it('should fail for no api key', function () {
-    console.log('no tests');
+    assert.throws(function () {
+      var responseGenius = new ResponseGenius(null);
+    })
   })
 });
